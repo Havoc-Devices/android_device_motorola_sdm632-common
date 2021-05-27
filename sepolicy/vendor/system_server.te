@@ -15,7 +15,7 @@ allow system_server sysfs_kgsl:lnk_file { read };
 allow system_server media_rw_data_file:dir { setattr };
 allow system_server sysfs_livedisplay_tuneable:file { read write };
 
-# Smart_charging
+# Adaptive_charging
 allow system_server sysfs_healthd:file rw_file_perms;
 
 get_prop(system_server, exported_camera_prop);

@@ -16,6 +16,10 @@
     "target_path": "system/qcom"
   },
   {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  },
+  {
     "repository": "proprietary_vendor_motorola",
     "target_path": "vendor/motorola"
   }
